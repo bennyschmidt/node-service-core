@@ -1,6 +1,6 @@
 {
   "name": "node-service-core",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "node": "16.14.2"
   },
