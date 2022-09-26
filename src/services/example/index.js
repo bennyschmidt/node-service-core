@@ -1,4 +1,4 @@
-const { http } = require('node-service-client');
+const { http } = require('node-service-library');
 
 const { hello } = require('./api');
 

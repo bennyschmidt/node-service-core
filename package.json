@@ -1,6 +1,6 @@
 {
   "name": "node-service-core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "node": "16.14.2"
   },
@@ -13,7 +13,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "node-fetch": "2.6.7",
-    "node-service-client": "^1.0.6",
+    "node-service-library": "^1.0.7",
     "path": "^0.12.7",
     "socket.io": "^4.0.1"
   }
