@@ -20,7 +20,7 @@ const { http } = require('node-service-library');
 // Import your API endpoints
 const { hello } = require('./api');
 
-// Bind them to your HTTP handler
+// Bind them to HTTP method handlers (declarative)
 module.exports = http({
   GET: {
     hello
@@ -75,4 +75,6 @@ In `/src/apps/mycoolapp/index.html`:
 </html>
 ```
 
-Add as many new services, APIs, or front-end applications as you need. By building your services using [`node-service-library`](https://github.com/bennyschmidt/node-service-library), when/if the time comes to move a service out on its own, you can create another instance of `node-service-core` and simply copy/paste the `services/{serviceName}` directory over. For serverless setups, functions in the `/api/` directory of any service are already modularized and can be moved as-is to AWS Lambda, Vercel serverless, etc.
+Add as many new services, APIs, or front-end applications as you need. By building your services using [`node-service-library`](https://github.com/bennyschmidt/node-service-library), when/if the time comes to move a service out on its own, you can create another instance of `node-service-core` and simply copy/paste the `services/{serviceName}` directory over. 
+
+For serverless setups, functions in the `/api/` directory of any service are already modularized and can be moved as-is to AWS Lambda, Vercel serverless, etc.
